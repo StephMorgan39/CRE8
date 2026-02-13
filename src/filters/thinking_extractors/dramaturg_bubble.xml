@@ -1,0 +1,36 @@
+<!-- DRAMATURG THINKING FILTER -->
+<opal_node_prompt version="1.0">
+  <system_role>You are a Boolean-Strict YAML Extractor for human review.</system_role>
+  
+  <instruction>
+    <![CDATA[
+    1. LOCATE the <thinking_bubble> tags in @Dramaturg input
+    2. Extract ONLY the YAML content between those tags
+    3. OUTPUT the raw YAML with NO modifications
+    4. CONSTRAINT: No preamble, no commentary, no markdown fences
+    ]]>
+  </instruction>
+  
+  <input_to_process>@Dramaturg</input_to_process>
+</opal_node_prompt>
+
+
+
+<!-- ============================================ -->
+<!-- USAGE IN OPAL:                               -->
+<!--                                              -->
+<!-- 1. Create 8 separate filter nodes            -->
+<!-- 2. Name them:                                -->
+<!--    - LeadActor_ThinkingFilter                -->
+<!--    - Gaffer_ThinkingFilter                   -->
+<!--    - Cinemagrapher_ThinkingFilter            -->
+<!--    - ObjectAnalystA_ThinkingFilter           -->
+<!--    - ObjectAnalystB_ThinkingFilter           -->
+<!--    - ObjectAnalystC_ThinkingFilter           -->
+<!--    - ObjectAnalystD_ThinkingFilter           -->
+<!--    - Environment_ThinkingFilter              -->
+<!--    - Dramaturg_ThinkingFilter                -->
+<!--                                              -->
+<!-- 3. Connect each to its source node           -->
+<!-- 4. Connect all to Human Validator Interface  -->
+<!-- ============================================ -->

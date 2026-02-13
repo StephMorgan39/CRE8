@@ -328,7 +328,7 @@ PROMPT WEIGHT LOGIC:
 
   <output_specification>
     <instruction>
-      Output the unified production manifest in <![CDATA[ <production_manifest> ]]> tags as a JSON object.
+      Output the unified production manifest in <production_manifest> tags as a JSON object.
       Follow this exact structure:
     </instruction>
 
