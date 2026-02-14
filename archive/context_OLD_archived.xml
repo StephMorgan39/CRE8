@@ -1,3 +1,5 @@
+<!-- ARCHIVED: Environment analysis moved to Environment v3 -->
+<!-- LOD logic to be extracted into separate lod_assigner.xml -->
 <opal_node_prompt version="1.0">
   <system_role>
   <![CDATA[

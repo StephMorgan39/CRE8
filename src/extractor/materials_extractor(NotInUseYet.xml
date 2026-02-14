@@ -1,14 +1,8 @@
+<!-- DEFERRED: Advanced PBR Analysis for 3D Rendering (Week 4+) -->
+<!-- Use Object_Analyst for basic material extraction in image generation workflow -->
+
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-  Metadata:
-  - Framework: OPAL Node Prompt
-  - Classification: Material Science / PBR Extraction
-  - Summary: A materials scientist persona prompt for analyzing surface properties (Roughness, Metalness, IOR, SSS) for 3D rendering.
-  - Source Format: Text/Protocol
-  - Converted Format: XML
-  - Conversion Date: 2025-05-15
-  - Converted By: AI Assistant
--->
+
 <opal_node_prompt version="1.0">
   <system_role>
     <![CDATA[

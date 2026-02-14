@@ -1,4 +1,6 @@
-<!-- GAFFER THINKING FILTER -->
+<!-- ============================================ -->
+<!-- GAFFER THINKING FILTER                       -->
+<!-- ============================================ -->
 <opal_node_prompt version="1.0">
   <system_role>You are a Boolean-Strict YAML Extractor for human review.</system_role>
   
